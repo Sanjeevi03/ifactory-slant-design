@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Mea+Culpa&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Mea+Culpa&family=Montserrat:wght@300&family=Quicksand:wght@300&display=swap');
+.first_container{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.ifac_title{
+    letter-spacing: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;    
+}
+.circle{
+    width: 20px;
+    border-radius: 80%;
+}
+.icon{
+    width: 200px;
+    height: 50px;
+    background-color:#201627 ;
+    margin: auto;
+    margin-top: -16px;
+}
+.row_1{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border:2px dotted white;
+    background-color: #201627;
+    height: 30em;
+}
+.col_1{
+    background-color: #201627;
+    clip-path: polygon(0 0%,100% 0%,100% 88%,0% 100%);
+}
+.sty_text{
+    font-family: 'Mea Culpa', cursive;
+    font-size: 100px;
+}
+.letter_sp{
+    letter-spacing: 17px;
+}
+.row_1_lastText{
+    letter-spacing: 10px;
+}
+.mouse_png{
+    width: 70px;
+}
+.row_2{
+    border-right: 2px dotted white;
+    border-left: 2px dotted white;
+    /* background-color: #E7DFD5; */
+    background-color: #E7DFD5;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%23E7DFD5' width='11' height='11'/%3E%3Crect fill='%23e7ded4' x='10' width='11' height='11'/%3E%3Crect fill='%23e7ded3' y='10' width='11' height='11'/%3E%3Crect fill='%23e7ddd3' x='20' width='11' height='11'/%3E%3Crect fill='%23e7ddd2' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%23e7dcd1' y='20' width='11' height='11'/%3E%3Crect fill='%23e7dcd0' x='30' width='11' height='11'/%3E%3Crect fill='%23e7dbcf' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%23e7dbce' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%23e7dace' y='30' width='11' height='11'/%3E%3Crect fill='%23e7dacd' x='40' width='11' height='11'/%3E%3Crect fill='%23e7d9cc' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%23e7d9cb' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%23e8d8cb' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%23e8d8ca' y='40' width='11' height='11'/%3E%3Crect fill='%23e8d7c9' x='50' width='11' height='11'/%3E%3Crect fill='%23e8d6c8' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%23e8d6c8' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%23e8d5c7' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%23e8d5c6' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%23e8d4c6' y='50' width='11' height='11'/%3E%3Crect fill='%23e8d4c5' x='60' width='11' height='11'/%3E%3Crect fill='%23e9d3c4' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%23e9d2c3' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%23e9d2c3' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%23e9d1c2' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%23e9d1c2' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%23e9d0c1' x='70' width='11' height='11'/%3E%3Crect fill='%23e9cfc0' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%23eacfc0' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%23eacebf' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%23eacebe' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%23eacdbe' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%23eaccbd' x='80' width='11' height='11'/%3E%3Crect fill='%23eaccbd' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%23eacbbc' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%23ebcbbc' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%23ebcabb' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%23ebc9bb' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%23ebc9ba' x='90' width='11' height='11'/%3E%3Crect fill='%23ebc8ba' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%23ebc7b9' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%23ecc7b9' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%23ecc6b8' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%23ecc6b8' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%23ecc5b7' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%23ecc4b7' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%23ecc4b7' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%23edc3b6' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%23edc2b6' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%23edc2b6' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%23edc1b5' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%23edc1b5' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%23edc0b5' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%23edbfb4' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%23eebfb4' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%23eebeb4' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%23eebdb3' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%23eebdb3' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%23EEBCB3' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: cover;
+    height: 40em;
+    padding: 10rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.col_2{
+    /* background-color: #E7DFD5; */
+    background-color: #E7DFD5;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%23E7DFD5' width='11' height='11'/%3E%3Crect fill='%23e7ded4' x='10' width='11' height='11'/%3E%3Crect fill='%23e7ded3' y='10' width='11' height='11'/%3E%3Crect fill='%23e7ddd3' x='20' width='11' height='11'/%3E%3Crect fill='%23e7ddd2' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%23e7dcd1' y='20' width='11' height='11'/%3E%3Crect fill='%23e7dcd0' x='30' width='11' height='11'/%3E%3Crect fill='%23e7dbcf' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%23e7dbce' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%23e7dace' y='30' width='11' height='11'/%3E%3Crect fill='%23e7dacd' x='40' width='11' height='11'/%3E%3Crect fill='%23e7d9cc' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%23e7d9cb' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%23e8d8cb' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%23e8d8ca' y='40' width='11' height='11'/%3E%3Crect fill='%23e8d7c9' x='50' width='11' height='11'/%3E%3Crect fill='%23e8d6c8' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%23e8d6c8' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%23e8d5c7' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%23e8d5c6' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%23e8d4c6' y='50' width='11' height='11'/%3E%3Crect fill='%23e8d4c5' x='60' width='11' height='11'/%3E%3Crect fill='%23e9d3c4' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%23e9d2c3' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%23e9d2c3' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%23e9d1c2' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%23e9d1c2' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%23e9d0c1' x='70' width='11' height='11'/%3E%3Crect fill='%23e9cfc0' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%23eacfc0' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%23eacebf' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%23eacebe' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%23eacdbe' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%23eaccbd' x='80' width='11' height='11'/%3E%3Crect fill='%23eaccbd' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%23eacbbc' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%23ebcbbc' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%23ebcabb' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%23ebc9bb' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%23ebc9ba' x='90' width='11' height='11'/%3E%3Crect fill='%23ebc8ba' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%23ebc7b9' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%23ecc7b9' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%23ecc6b8' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%23ecc6b8' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%23ecc5b7' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%23ecc4b7' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%23ecc4b7' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%23edc3b6' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%23edc2b6' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%23edc2b6' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%23edc1b5' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%23edc1b5' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%23edc0b5' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%23edbfb4' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%23eebfb4' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%23eebeb4' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%23eebdb3' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%23eebdb3' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%23EEBCB3' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: cover;
+    clip-path: polygon(0% 25%,100% 15%,100% 100%,0% 100%);
+    margin-top: -175px;
+}
+.visual{
+    width: 70%;
+}
+.col_3{
+    /* background-color: #382747; */
+    background-color: #24192D;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='86' height='86' viewBox='0 0 120 120'%3E%3Cpolygon fill='%23000' fill-opacity='0.42' points='120 0 120 60 90 30 60 0 0 0 0 0 60 60 0 120 60 120 90 90 120 60 120 0'/%3E%3C/svg%3E");
+    clip-path: polygon(0% 23%,100% 15%,100% 100%,0% 100%);
+    margin-top: -190px;
+} 
+.row_3{
+    border-right: 2px dotted white;
+    border-left: 2px dotted white;
+    /* background-color: #382747; */
+    background-color: #24192D;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='86' height='86' viewBox='0 0 120 120'%3E%3Cpolygon fill='%23000' fill-opacity='0.42' points='120 0 120 60 90 30 60 0 0 0 0 0 60 60 0 120 60 120 90 90 120 60 120 0'/%3E%3C/svg%3E");
+    height: 33em;
+    padding-top: 8.8rem;
+    font-family: 'Quicksand', sans-serif;
+}
+.col_3_text2{
+    font-size: 27px;
+}
+.col_4{
+    /* background-color: #F9D9CC; */
+    background-color: #F4D4D2;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 400'%3E%3Cdefs%3E%3CradialGradient id='a' cx='396' cy='281' r='514' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23F4C6B4'/%3E%3Cstop offset='1' stop-color='%23F4D4D2'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='400' y1='148' x2='400' y2='333'%3E%3Cstop offset='0' stop-color='%23FFC463' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23FFC463' stop-opacity='0.5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='800' height='400'/%3E%3Cg fill-opacity='0.5'%3E%3Ccircle fill='url(%23b)' cx='267.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='532.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='400' cy='30' r='300'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: cover;
+    clip-path: polygon(0% 25%,100% 15%,100% 100%,0% 100%);
+    margin-top: -190px;
+}
+.row_4{
+    border-right: 2px dotted white;
+    border-left: 2px dotted white;
+    /* background-color: #F9D9CC; */
+    background-color: #F4D4D2;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 400'%3E%3Cdefs%3E%3CradialGradient id='a' cx='396' cy='281' r='514' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23F4C6B4'/%3E%3Cstop offset='1' stop-color='%23F4D4D2'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='400' y1='148' x2='400' y2='333'%3E%3Cstop offset='0' stop-color='%23FFC463' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23FFC463' stop-opacity='0.5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='800' height='400'/%3E%3Cg fill-opacity='0.5'%3E%3Ccircle fill='url(%23b)' cx='267.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='532.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='400' cy='30' r='300'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: cover;
+    padding-top: 9rem;
+    height: 38em;
+    font-family: 'Montserrat', sans-serif;
+}
+.col_5{
+    /* background-color: #F2A3B6; */
+    background-color: #F2A2B6;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='600' y1='25' x2='600' y2='777'%3E%3Cstop offset='0' stop-color='%23F2A2B6'/%3E%3Cstop offset='1' stop-color='%23F2A2B6'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='650' y1='25' x2='650' y2='777'%3E%3Cstop offset='0' stop-color='%23f2a2b6'/%3E%3Cstop offset='1' stop-color='%23ed93af'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' gradientUnits='userSpaceOnUse' x1='700' y1='25' x2='700' y2='777'%3E%3Cstop offset='0' stop-color='%23f2a2b6'/%3E%3Cstop offset='1' stop-color='%23e785a9'/%3E%3C/linearGradient%3E%3ClinearGradient id='d' gradientUnits='userSpaceOnUse' x1='750' y1='25' x2='750' y2='777'%3E%3Cstop offset='0' stop-color='%23f2a2b6'/%3E%3Cstop offset='1' stop-color='%23e078a4'/%3E%3C/linearGradient%3E%3ClinearGradient id='e' gradientUnits='userSpaceOnUse' x1='800' y1='25' x2='800' y2='777'%3E%3Cstop offset='0' stop-color='%23f2a2b6'/%3E%3Cstop offset='1' stop-color='%23d86ca0'/%3E%3C/linearGradient%3E%3ClinearGradient id='f' gradientUnits='userSpaceOnUse' x1='850' y1='25' x2='850' y2='777'%3E%3Cstop offset='0' stop-color='%23f2a2b6'/%3E%3Cstop offset='1' stop-color='%23d0619d'/%3E%3C/linearGradient%3E%3ClinearGradient id='g' gradientUnits='userSpaceOnUse' x1='900' y1='25' x2='900' y2='777'%3E%3Cstop offset='0' stop-color='%23f2a2b6'/%3E%3Cstop offset='1' stop-color='%23c75699'/%3E%3C/linearGradient%3E%3ClinearGradient id='h' gradientUnits='userSpaceOnUse' x1='950' y1='25' x2='950' y2='777'%3E%3Cstop offset='0' stop-color='%23f2a2b6'/%3E%3Cstop offset='1' stop-color='%23bc4c96'/%3E%3C/linearGradient%3E%3ClinearGradient id='i' gradientUnits='userSpaceOnUse' x1='1000' y1='25' x2='1000' y2='777'%3E%3Cstop offset='0' stop-color='%23f2a2b6'/%3E%3Cstop offset='1' stop-color='%23ad4890'/%3E%3C/linearGradient%3E%3ClinearGradient id='j' gradientUnits='userSpaceOnUse' x1='1050' y1='25' x2='1050' y2='777'%3E%3Cstop offset='0' stop-color='%23f2a2b6'/%3E%3Cstop offset='1' stop-color='%239a4787'/%3E%3C/linearGradient%3E%3ClinearGradient id='k' gradientUnits='userSpaceOnUse' x1='1100' y1='25' x2='1100' y2='777'%3E%3Cstop offset='0' stop-color='%23f2a2b6'/%3E%3Cstop offset='1' stop-color='%2388457d'/%3E%3C/linearGradient%3E%3ClinearGradient id='l' gradientUnits='userSpaceOnUse' x1='1150' y1='25' x2='1150' y2='777'%3E%3Cstop offset='0' stop-color='%23F2A2B6'/%3E%3Cstop offset='1' stop-color='%23774271'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg %3E%3Crect fill='url(%23a)' width='1200' height='800'/%3E%3Crect fill='url(%23b)' x='100' width='1100' height='800'/%3E%3Crect fill='url(%23c)' x='200' width='1000' height='800'/%3E%3Crect fill='url(%23d)' x='300' width='900' height='800'/%3E%3Crect fill='url(%23e)' x='400' width='800' height='800'/%3E%3Crect fill='url(%23f)' x='500' width='700' height='800'/%3E%3Crect fill='url(%23g)' x='600' width='600' height='800'/%3E%3Crect fill='url(%23h)' x='700' width='500' height='800'/%3E%3Crect fill='url(%23i)' x='800' width='400' height='800'/%3E%3Crect fill='url(%23j)' x='900' width='300' height='800'/%3E%3Crect fill='url(%23k)' x='1000' width='200' height='800'/%3E%3Crect fill='url(%23l)' x='1100' width='100' height='800'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: cover;
+    clip-path: polygon(0% 38%,100% 25%,100% 100%,0% 100%);
+    padding-top: 7rem;
+    margin-top: -250px;
+    font-family: 'Quicksand', sans-serif;
+}
+.row_5{
+    /* background-color: #F2A3B6; */    
+    background-color: #F2A2B6;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='600' y1='25' x2='600' y2='777'%3E%3Cstop offset='0' stop-color='%23F2A2B6'/%3E%3Cstop offset='1' stop-color='%23F2A2B6'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='650' y1='25' x2='650' y2='777'%3E%3Cstop offset='0' stop-color='%23f2a2b6'/%3E%3Cstop offset='1' stop-color='%23ed93af'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' gradientUnits='userSpaceOnUse' x1='700' y1='25' x2='700' y2='777'%3E%3Cstop offset='0' stop-color='%23f2a2b6'/%3E%3Cstop offset='1' stop-color='%23e785a9'/%3E%3C/linearGradient%3E%3ClinearGradient id='d' gradientUnits='userSpaceOnUse' x1='750' y1='25' x2='750' y2='777'%3E%3Cstop offset='0' stop-color='%23f2a2b6'/%3E%3Cstop offset='1' stop-color='%23e078a4'/%3E%3C/linearGradient%3E%3ClinearGradient id='e' gradientUnits='userSpaceOnUse' x1='800' y1='25' x2='800' y2='777'%3E%3Cstop offset='0' stop-color='%23f2a2b6'/%3E%3Cstop offset='1' stop-color='%23d86ca0'/%3E%3C/linearGradient%3E%3ClinearGradient id='f' gradientUnits='userSpaceOnUse' x1='850' y1='25' x2='850' y2='777'%3E%3Cstop offset='0' stop-color='%23f2a2b6'/%3E%3Cstop offset='1' stop-color='%23d0619d'/%3E%3C/linearGradient%3E%3ClinearGradient id='g' gradientUnits='userSpaceOnUse' x1='900' y1='25' x2='900' y2='777'%3E%3Cstop offset='0' stop-color='%23f2a2b6'/%3E%3Cstop offset='1' stop-color='%23c75699'/%3E%3C/linearGradient%3E%3ClinearGradient id='h' gradientUnits='userSpaceOnUse' x1='950' y1='25' x2='950' y2='777'%3E%3Cstop offset='0' stop-color='%23f2a2b6'/%3E%3Cstop offset='1' stop-color='%23bc4c96'/%3E%3C/linearGradient%3E%3ClinearGradient id='i' gradientUnits='userSpaceOnUse' x1='1000' y1='25' x2='1000' y2='777'%3E%3Cstop offset='0' stop-color='%23f2a2b6'/%3E%3Cstop offset='1' stop-color='%23ad4890'/%3E%3C/linearGradient%3E%3ClinearGradient id='j' gradientUnits='userSpaceOnUse' x1='1050' y1='25' x2='1050' y2='777'%3E%3Cstop offset='0' stop-color='%23f2a2b6'/%3E%3Cstop offset='1' stop-color='%239a4787'/%3E%3C/linearGradient%3E%3ClinearGradient id='k' gradientUnits='userSpaceOnUse' x1='1100' y1='25' x2='1100' y2='777'%3E%3Cstop offset='0' stop-color='%23f2a2b6'/%3E%3Cstop offset='1' stop-color='%2388457d'/%3E%3C/linearGradient%3E%3ClinearGradient id='l' gradientUnits='userSpaceOnUse' x1='1150' y1='25' x2='1150' y2='777'%3E%3Cstop offset='0' stop-color='%23F2A2B6'/%3E%3Cstop offset='1' stop-color='%23774271'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg %3E%3Crect fill='url(%23a)' width='1200' height='800'/%3E%3Crect fill='url(%23b)' x='100' width='1100' height='800'/%3E%3Crect fill='url(%23c)' x='200' width='1000' height='800'/%3E%3Crect fill='url(%23d)' x='300' width='900' height='800'/%3E%3Crect fill='url(%23e)' x='400' width='800' height='800'/%3E%3Crect fill='url(%23f)' x='500' width='700' height='800'/%3E%3Crect fill='url(%23g)' x='600' width='600' height='800'/%3E%3Crect fill='url(%23h)' x='700' width='500' height='800'/%3E%3Crect fill='url(%23i)' x='800' width='400' height='800'/%3E%3Crect fill='url(%23j)' x='900' width='300' height='800'/%3E%3Crect fill='url(%23k)' x='1000' width='200' height='800'/%3E%3Crect fill='url(%23l)' x='1100' width='100' height='800'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: cover;
+    border-right: 2px dotted white;
+    border-left: 2px dotted white;
+    padding-top: 8rem;
+    height: 32em;
+}
+.col_6{
+    /* background-image: linear-gradient(to bottom,#B4B8BF,#EBDFD2); */
+    background-color: #C7C6C6;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='89' height='89' viewBox='0 0 100 100'%3E%3Cg stroke='%23CCC' stroke-width='50' %3E%3Crect fill='%23C7C6C6' x='-60' y='-60' width='104' height='240'/%3E%3C/g%3E%3C/svg%3E");
+    clip-path: polygon(0% 38%,100% 28%,100% 100%,0% 100%);
+    padding-top: 9rem;
+    margin-top: -280px;
+}
+.row_6{
+    /* background-image: linear-gradient(to bottom,#B4B8BF,#EBDFD2); */
+    background-color: #C7C6C6;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='89' height='89' viewBox='0 0 100 100'%3E%3Cg stroke='%23CCC' stroke-width='50' %3E%3Crect fill='%23C7C6C6' x='-60' y='-60' width='104' height='240'/%3E%3C/g%3E%3C/svg%3E");
+    border-right: 2px dotted white;
+    border-left: 2px dotted white;
+    padding-top: 7rem;
+    height: 35em;
+    font-family: 'Montserrat', sans-serif;
+}
+.col_7{
+    /* background-color: #281C32; */
+    background-color: #281C32;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%232C1F37' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+    clip-path: polygon(0% 38%,100% 28%,100% 100%,0% 100%);
+    padding-top: 10rem;
+    margin-top: -250px;
+}
+.row_7{
+    /* background-color: #281C32; */
+    background-color: #281C32;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%232C1F37' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+    border-right: 2px dotted white;
+    border-left: 2px dotted white;
+    padding-top: 7rem;
+    height: 30em;
+    font-family: 'Montserrat', sans-serif;
+}
+.col_8{
+    /* background-color: #F8C4CD; */
+    background-color: #F2A3B5;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='200' viewBox='0 0 160 80'%3E%3Cg fill='%23E89CAD' %3E%3Cpolygon points='0 10 0 0 10 0'/%3E%3Cpolygon points='0 40 0 30 10 30'/%3E%3Cpolygon points='0 30 0 20 10 20'/%3E%3Cpolygon points='0 70 0 60 10 60'/%3E%3Cpolygon points='0 80 0 70 10 70'/%3E%3Cpolygon points='50 80 50 70 60 70'/%3E%3Cpolygon points='10 20 10 10 20 10'/%3E%3Cpolygon points='10 40 10 30 20 30'/%3E%3Cpolygon points='20 10 20 0 30 0'/%3E%3Cpolygon points='10 10 10 0 20 0'/%3E%3Cpolygon points='30 20 30 10 40 10'/%3E%3Cpolygon points='20 20 20 40 40 20'/%3E%3Cpolygon points='40 10 40 0 50 0'/%3E%3Cpolygon points='40 20 40 10 50 10'/%3E%3Cpolygon points='40 40 40 30 50 30'/%3E%3Cpolygon points='30 40 30 30 40 30'/%3E%3Cpolygon points='40 60 40 50 50 50'/%3E%3Cpolygon points='50 30 50 20 60 20'/%3E%3Cpolygon points='40 60 40 80 60 60'/%3E%3Cpolygon points='50 40 50 60 70 40'/%3E%3Cpolygon points='60 0 60 20 80 0'/%3E%3Cpolygon points='70 30 70 20 80 20'/%3E%3Cpolygon points='70 40 70 30 80 30'/%3E%3Cpolygon points='60 60 60 80 80 60'/%3E%3Cpolygon points='80 10 80 0 90 0'/%3E%3Cpolygon points='70 40 70 60 90 40'/%3E%3Cpolygon points='80 60 80 50 90 50'/%3E%3Cpolygon points='60 30 60 20 70 20'/%3E%3Cpolygon points='80 70 80 80 90 80 100 70'/%3E%3Cpolygon points='80 10 80 40 110 10'/%3E%3Cpolygon points='110 40 110 30 120 30'/%3E%3Cpolygon points='90 40 90 70 120 40'/%3E%3Cpolygon points='10 50 10 80 40 50'/%3E%3Cpolygon points='110 60 110 50 120 50'/%3E%3Cpolygon points='100 60 100 80 120 60'/%3E%3Cpolygon points='110 0 110 20 130 0'/%3E%3Cpolygon points='120 30 120 20 130 20'/%3E%3Cpolygon points='130 10 130 0 140 0'/%3E%3Cpolygon points='130 30 130 20 140 20'/%3E%3Cpolygon points='120 40 120 30 130 30'/%3E%3Cpolygon points='130 50 130 40 140 40'/%3E%3Cpolygon points='120 50 120 70 140 50'/%3E%3Cpolygon points='110 70 110 80 130 80 140 70'/%3E%3Cpolygon points='140 10 140 0 150 0'/%3E%3Cpolygon points='140 20 140 10 150 10'/%3E%3Cpolygon points='140 40 140 30 150 30'/%3E%3Cpolygon points='140 50 140 40 150 40'/%3E%3Cpolygon points='140 70 140 60 150 60'/%3E%3Cpolygon points='150 20 150 40 160 30 160 20'/%3E%3Cpolygon points='150 60 150 50 160 50'/%3E%3Cpolygon points='140 70 140 80 150 80 160 70'/%3E%3C/g%3E%3C/svg%3E");
+    clip-path: polygon(0% 38%,100% 25%,100% 100%,0% 100%);
+    padding-top: 7rem;
+    margin-top: -290px;
+}
+.row_8{
+    /* background-color: #F8C4CD; */
+    background-color: #F2A3B5;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='200' viewBox='0 0 160 80'%3E%3Cg fill='%23E89CAD' %3E%3Cpolygon points='0 10 0 0 10 0'/%3E%3Cpolygon points='0 40 0 30 10 30'/%3E%3Cpolygon points='0 30 0 20 10 20'/%3E%3Cpolygon points='0 70 0 60 10 60'/%3E%3Cpolygon points='0 80 0 70 10 70'/%3E%3Cpolygon points='50 80 50 70 60 70'/%3E%3Cpolygon points='10 20 10 10 20 10'/%3E%3Cpolygon points='10 40 10 30 20 30'/%3E%3Cpolygon points='20 10 20 0 30 0'/%3E%3Cpolygon points='10 10 10 0 20 0'/%3E%3Cpolygon points='30 20 30 10 40 10'/%3E%3Cpolygon points='20 20 20 40 40 20'/%3E%3Cpolygon points='40 10 40 0 50 0'/%3E%3Cpolygon points='40 20 40 10 50 10'/%3E%3Cpolygon points='40 40 40 30 50 30'/%3E%3Cpolygon points='30 40 30 30 40 30'/%3E%3Cpolygon points='40 60 40 50 50 50'/%3E%3Cpolygon points='50 30 50 20 60 20'/%3E%3Cpolygon points='40 60 40 80 60 60'/%3E%3Cpolygon points='50 40 50 60 70 40'/%3E%3Cpolygon points='60 0 60 20 80 0'/%3E%3Cpolygon points='70 30 70 20 80 20'/%3E%3Cpolygon points='70 40 70 30 80 30'/%3E%3Cpolygon points='60 60 60 80 80 60'/%3E%3Cpolygon points='80 10 80 0 90 0'/%3E%3Cpolygon points='70 40 70 60 90 40'/%3E%3Cpolygon points='80 60 80 50 90 50'/%3E%3Cpolygon points='60 30 60 20 70 20'/%3E%3Cpolygon points='80 70 80 80 90 80 100 70'/%3E%3Cpolygon points='80 10 80 40 110 10'/%3E%3Cpolygon points='110 40 110 30 120 30'/%3E%3Cpolygon points='90 40 90 70 120 40'/%3E%3Cpolygon points='10 50 10 80 40 50'/%3E%3Cpolygon points='110 60 110 50 120 50'/%3E%3Cpolygon points='100 60 100 80 120 60'/%3E%3Cpolygon points='110 0 110 20 130 0'/%3E%3Cpolygon points='120 30 120 20 130 20'/%3E%3Cpolygon points='130 10 130 0 140 0'/%3E%3Cpolygon points='130 30 130 20 140 20'/%3E%3Cpolygon points='120 40 120 30 130 30'/%3E%3Cpolygon points='130 50 130 40 140 40'/%3E%3Cpolygon points='120 50 120 70 140 50'/%3E%3Cpolygon points='110 70 110 80 130 80 140 70'/%3E%3Cpolygon points='140 10 140 0 150 0'/%3E%3Cpolygon points='140 20 140 10 150 10'/%3E%3Cpolygon points='140 40 140 30 150 30'/%3E%3Cpolygon points='140 50 140 40 150 40'/%3E%3Cpolygon points='140 70 140 60 150 60'/%3E%3Cpolygon points='150 20 150 40 160 30 160 20'/%3E%3Cpolygon points='150 60 150 50 160 50'/%3E%3Cpolygon points='140 70 140 80 150 80 160 70'/%3E%3C/g%3E%3C/svg%3E");
+    border-right: 2px dotted white;
+    border-left: 2px dotted white;
+    padding-top: 10rem;
+    height: 40em;
+    font-family: 'Montserrat', sans-serif;
+}
+.col_9{
+    /* background-color: #FEE5CD; */
+    background-color: #FEE5CD;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='552' height='552' viewBox='0 0 200 200'%3E%3Cg fill='none' stroke='%23BAA896' stroke-width='4.7' stroke-opacity='0.16'%3E%3Crect x='-40' y='40' width='75' height='75'/%3E%3Crect x='-35' y='45' width='65' height='65'/%3E%3Crect x='-30' y='50' width='55' height='55'/%3E%3Crect x='-25' y='55' width='45' height='45'/%3E%3Crect x='-20' y='60' width='35' height='35'/%3E%3Crect x='-15' y='65' width='25' height='25'/%3E%3Crect x='-10' y='70' width='15' height='15'/%3E%3Crect x='-5' y='75' width='5' height='5'/%3E%3Crect width='35' height='35'/%3E%3Crect x='5' y='5' width='25' height='25'/%3E%3Crect x='10' y='10' width='15' height='15'/%3E%3Crect x='15' y='15' width='5' height='5'/%3E%3Crect x='40' width='75' height='75'/%3E%3Crect x='45' y='5' width='65' height='65'/%3E%3Crect x='50' y='10' width='55' height='55'/%3E%3Crect x='55' y='15' width='45' height='45'/%3E%3Crect x='60' y='20' width='35' height='35'/%3E%3Crect x='65' y='25' width='25' height='25'/%3E%3Crect x='70' y='30' width='15' height='15'/%3E%3Crect x='75' y='35' width='5' height='5'/%3E%3Crect x='40' y='80' width='35' height='35'/%3E%3Crect x='45' y='85' width='25' height='25'/%3E%3Crect x='50' y='90' width='15' height='15'/%3E%3Crect x='55' y='95' width='5' height='5'/%3E%3Crect x='120' y='-40' width='75' height='75'/%3E%3Crect x='125' y='-35' width='65' height='65'/%3E%3Crect x='130' y='-30' width='55' height='55'/%3E%3Crect x='135' y='-25' width='45' height='45'/%3E%3Crect x='140' y='-20' width='35' height='35'/%3E%3Crect x='145' y='-15' width='25' height='25'/%3E%3Crect x='150' y='-10' width='15' height='15'/%3E%3Crect x='155' y='-5' width='5' height='5'/%3E%3Crect x='120' y='40' width='35' height='35'/%3E%3Crect x='125' y='45' width='25' height='25'/%3E%3Crect x='130' y='50' width='15' height='15'/%3E%3Crect x='135' y='55' width='5' height='5'/%3E%3Crect y='120' width='75' height='75'/%3E%3Crect x='5' y='125' width='65' height='65'/%3E%3Crect x='10' y='130' width='55' height='55'/%3E%3Crect x='15' y='135' width='45' height='45'/%3E%3Crect x='20' y='140' width='35' height='35'/%3E%3Crect x='25' y='145' width='25' height='25'/%3E%3Crect x='30' y='150' width='15' height='15'/%3E%3Crect x='35' y='155' width='5' height='5'/%3E%3Crect x='200' y='120' width='75' height='75'/%3E%3Crect x='40' y='200' width='75' height='75'/%3E%3Crect x='80' y='80' width='75' height='75'/%3E%3Crect x='85' y='85' width='65' height='65'/%3E%3Crect x='90' y='90' width='55' height='55'/%3E%3Crect x='95' y='95' width='45' height='45'/%3E%3Crect x='100' y='100' width='35' height='35'/%3E%3Crect x='105' y='105' width='25' height='25'/%3E%3Crect x='110' y='110' width='15' height='15'/%3E%3Crect x='115' y='115' width='5' height='5'/%3E%3Crect x='80' y='160' width='35' height='35'/%3E%3Crect x='85' y='165' width='25' height='25'/%3E%3Crect x='90' y='170' width='15' height='15'/%3E%3Crect x='95' y='175' width='5' height='5'/%3E%3Crect x='120' y='160' width='75' height='75'/%3E%3Crect x='125' y='165' width='65' height='65'/%3E%3Crect x='130' y='170' width='55' height='55'/%3E%3Crect x='135' y='175' width='45' height='45'/%3E%3Crect x='140' y='180' width='35' height='35'/%3E%3Crect x='145' y='185' width='25' height='25'/%3E%3Crect x='150' y='190' width='15' height='15'/%3E%3Crect x='155' y='195' width='5' height='5'/%3E%3Crect x='160' y='40' width='75' height='75'/%3E%3Crect x='165' y='45' width='65' height='65'/%3E%3Crect x='170' y='50' width='55' height='55'/%3E%3Crect x='175' y='55' width='45' height='45'/%3E%3Crect x='180' y='60' width='35' height='35'/%3E%3Crect x='185' y='65' width='25' height='25'/%3E%3Crect x='190' y='70' width='15' height='15'/%3E%3Crect x='195' y='75' width='5' height='5'/%3E%3Crect x='160' y='120' width='35' height='35'/%3E%3Crect x='165' y='125' width='25' height='25'/%3E%3Crect x='170' y='130' width='15' height='15'/%3E%3Crect x='175' y='135' width='5' height='5'/%3E%3Crect x='200' y='200' width='35' height='35'/%3E%3Crect x='200' width='35' height='35'/%3E%3Crect y='200' width='35' height='35'/%3E%3C/g%3E%3C/svg%3E");
+    clip-path: polygon(0% 38%,100% 25%,100% 100%,0% 100%);
+    padding-top: 7rem;
+    margin-top: -250px;
+}
+.row_9{
+    /* background-color:#FEE5CD; */
+    background-color: #FEE5CD;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='552' height='552' viewBox='0 0 200 200'%3E%3Cg fill='none' stroke='%23BAA896' stroke-width='4.7' stroke-opacity='0.16'%3E%3Crect x='-40' y='40' width='75' height='75'/%3E%3Crect x='-35' y='45' width='65' height='65'/%3E%3Crect x='-30' y='50' width='55' height='55'/%3E%3Crect x='-25' y='55' width='45' height='45'/%3E%3Crect x='-20' y='60' width='35' height='35'/%3E%3Crect x='-15' y='65' width='25' height='25'/%3E%3Crect x='-10' y='70' width='15' height='15'/%3E%3Crect x='-5' y='75' width='5' height='5'/%3E%3Crect width='35' height='35'/%3E%3Crect x='5' y='5' width='25' height='25'/%3E%3Crect x='10' y='10' width='15' height='15'/%3E%3Crect x='15' y='15' width='5' height='5'/%3E%3Crect x='40' width='75' height='75'/%3E%3Crect x='45' y='5' width='65' height='65'/%3E%3Crect x='50' y='10' width='55' height='55'/%3E%3Crect x='55' y='15' width='45' height='45'/%3E%3Crect x='60' y='20' width='35' height='35'/%3E%3Crect x='65' y='25' width='25' height='25'/%3E%3Crect x='70' y='30' width='15' height='15'/%3E%3Crect x='75' y='35' width='5' height='5'/%3E%3Crect x='40' y='80' width='35' height='35'/%3E%3Crect x='45' y='85' width='25' height='25'/%3E%3Crect x='50' y='90' width='15' height='15'/%3E%3Crect x='55' y='95' width='5' height='5'/%3E%3Crect x='120' y='-40' width='75' height='75'/%3E%3Crect x='125' y='-35' width='65' height='65'/%3E%3Crect x='130' y='-30' width='55' height='55'/%3E%3Crect x='135' y='-25' width='45' height='45'/%3E%3Crect x='140' y='-20' width='35' height='35'/%3E%3Crect x='145' y='-15' width='25' height='25'/%3E%3Crect x='150' y='-10' width='15' height='15'/%3E%3Crect x='155' y='-5' width='5' height='5'/%3E%3Crect x='120' y='40' width='35' height='35'/%3E%3Crect x='125' y='45' width='25' height='25'/%3E%3Crect x='130' y='50' width='15' height='15'/%3E%3Crect x='135' y='55' width='5' height='5'/%3E%3Crect y='120' width='75' height='75'/%3E%3Crect x='5' y='125' width='65' height='65'/%3E%3Crect x='10' y='130' width='55' height='55'/%3E%3Crect x='15' y='135' width='45' height='45'/%3E%3Crect x='20' y='140' width='35' height='35'/%3E%3Crect x='25' y='145' width='25' height='25'/%3E%3Crect x='30' y='150' width='15' height='15'/%3E%3Crect x='35' y='155' width='5' height='5'/%3E%3Crect x='200' y='120' width='75' height='75'/%3E%3Crect x='40' y='200' width='75' height='75'/%3E%3Crect x='80' y='80' width='75' height='75'/%3E%3Crect x='85' y='85' width='65' height='65'/%3E%3Crect x='90' y='90' width='55' height='55'/%3E%3Crect x='95' y='95' width='45' height='45'/%3E%3Crect x='100' y='100' width='35' height='35'/%3E%3Crect x='105' y='105' width='25' height='25'/%3E%3Crect x='110' y='110' width='15' height='15'/%3E%3Crect x='115' y='115' width='5' height='5'/%3E%3Crect x='80' y='160' width='35' height='35'/%3E%3Crect x='85' y='165' width='25' height='25'/%3E%3Crect x='90' y='170' width='15' height='15'/%3E%3Crect x='95' y='175' width='5' height='5'/%3E%3Crect x='120' y='160' width='75' height='75'/%3E%3Crect x='125' y='165' width='65' height='65'/%3E%3Crect x='130' y='170' width='55' height='55'/%3E%3Crect x='135' y='175' width='45' height='45'/%3E%3Crect x='140' y='180' width='35' height='35'/%3E%3Crect x='145' y='185' width='25' height='25'/%3E%3Crect x='150' y='190' width='15' height='15'/%3E%3Crect x='155' y='195' width='5' height='5'/%3E%3Crect x='160' y='40' width='75' height='75'/%3E%3Crect x='165' y='45' width='65' height='65'/%3E%3Crect x='170' y='50' width='55' height='55'/%3E%3Crect x='175' y='55' width='45' height='45'/%3E%3Crect x='180' y='60' width='35' height='35'/%3E%3Crect x='185' y='65' width='25' height='25'/%3E%3Crect x='190' y='70' width='15' height='15'/%3E%3Crect x='195' y='75' width='5' height='5'/%3E%3Crect x='160' y='120' width='35' height='35'/%3E%3Crect x='165' y='125' width='25' height='25'/%3E%3Crect x='170' y='130' width='15' height='15'/%3E%3Crect x='175' y='135' width='5' height='5'/%3E%3Crect x='200' y='200' width='35' height='35'/%3E%3Crect x='200' width='35' height='35'/%3E%3Crect y='200' width='35' height='35'/%3E%3C/g%3E%3C/svg%3E");
+    border-right: 2px dotted white;
+    border-left: 2px dotted white;
+    padding-top: 8rem;
+    height: 32em;
+    font-family: 'Quicksand', sans-serif;
+}
+.col_10{
+    background-color: #DBDCDE;
+    clip-path: polygon(0% 38%,100% 25%,100% 100%,0% 100%);
+    padding-top: 7rem;
+    margin-top: -320px;
+}
+.row_10{
+    background-color:#DBDCDE;
+    border-right: 2px dotted white;
+    border-left: 2px dotted white;
+    padding-top: 13rem;
+    height: 36em;
+}
+.last_text{
+    color: grey;
+}
+.final{
+    color: grey;
+}
+.pink{
+    color: lightpink;
+}
+@media (max-width:768px){
+    .letter_sp{
+        letter-spacing:5px;
+        font-size: 17px;
+    }
+    .sty_text{
+        font-size: 42px;
+        
+    }
+    .col_2_padd{
+        font-size: 16px;
+    }
+    .padd{
+        padding-left: 1.5em;
+    }
+    .row_1_lastText{
+        letter-spacing: 3px;
+    }
+    .row_1{
+        height: 26em;
+    }
+    .row_2{
+        margin-top: 150px;
+        padding-top:4em;
+        height: 32em;
+    }
+    .row_3{
+        height: 37em;
+        padding-top: 12em;
+    }
+    .row_4{
+        height: 38em;
+    }
+    .row_5{
+        height: 28em;
+    }
+    .row_6{
+        padding-top: 8em;
+    }
+    .col_2{
+        clip-path: polygon(0% 33%,100% 27%,100% 100%,0% 100%);
+        margin-top: -260px;
+        
+    } 
+    .col_3{
+        background-color: #382747;
+        clip-path: polygon(0% 27%,100% 19%,100% 100%,0% 100%);
+        margin-top: -160px;
+    }
+    .col_4{
+        background-color: #F9D9CC;
+        clip-path: polygon(0% 25%,100% 15%,100% 100%,0% 100%);
+        margin-top: -190px;
+    }
+    .col_5{        
+        clip-path: polygon(0% 33%,100% 25%,100% 100%,0% 100%);
+
+    }
+    .col_10{
+        margin-top:-370px;
+    }
+    .row_10{
+        height: 53em;
+    }
+    .visual{
+        width: 80%;
+    }
+    .col_3_text2{
+        font-size: 18px;
+    }
+    .row_10{
+        padding-top: 14rem;
+        
+    }
+    .ifac_title{
+        letter-spacing: 6px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;   
+    }
+    
+}
+
